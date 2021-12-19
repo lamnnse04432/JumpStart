@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "jump-start"
+    }
+  },
+  "defaultProject": "jump-start",
+  "cli": {
+    "analytics": "1c07f9ce-0615-4d64-8e1d-0c0ecfa0726d"
+  }
 }
