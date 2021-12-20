@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {DataService} from "../services/data.service";
+import {ICustomer} from "../shared/interfaces";
 
 @Component({
   selector: 'app-orders',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrdersComponent implements OnInit {
 
-  constructor() { }
+  customers: ICustomer[];
+  totalRecords = 0;
+  pageSize = 5;
 
-  ngOnInit(): void {
+  constructor(private dataService: DataService) {
+
+  }
+  ngOnInit() {
+    this.getCustomersPage(1);
   }
 
+  getCustomersPage(page:number) {
+    this.dataService.getCustomersPage()
+  }
 }
