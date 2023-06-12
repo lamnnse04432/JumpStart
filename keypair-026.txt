@@ -1,0 +1,13 @@
+VCB
+{
+	"url": "http://192.168.200.213:7001/bond/",
+  	"publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhYiherKDTYleSG4+2oC5nLsBYYye6iJi/Qn3pNkDoWeBggq5w+l13MxVCkJUALPIV9bO0nqiJWLUIVdq8nffU6doaeLKC4lbhX9SYEq2n6ZyTpaFHm4IpGngZTtrkQ6QSc7HKOKnMJ+80jwoewE4GHR2WB8Z8jp0rHlWGFSGncvVzFFiqLblHm2GxQsYmWVEprY1HJnLdnch975oS/ZWYhLmz/3PRUBSyImieo3yrWUGvs+AwS+/FuBHA4+HiPHbftEdwL+sE1MdzUwIb6wHPvBnEaeyrJwzAxiWOiHHy07aVIOIrgTQ41k2YPK2nrT84GjvLqOTxlkJ4y024JaurQIDAQAB"
+}
+
+026	
+{
+  	"biccode":    "VSDVBPSX",
+  	"secretKey":  "bB1W5hF7Fu32Jz0EyJOE41t0CRwKiZ9p",
+}
+
+
